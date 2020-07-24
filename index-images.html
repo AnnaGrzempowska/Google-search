@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Search Images</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <div id="links-google">
-            <a id= "images" href="https://images.google.com/" title="Google images">Google Images</a>
-            <a id="advanced" href="https://www.google.com/advanced_search" title="Google Advanced">Google Advanced</a>
+            <a id= "google" href="index.html" title="Google search">Google Search</a>
         </div>
         
         <div id="google-form">
-            <form action="https://google.com/search">
+            <form action="https://images.google.com/search">
                 <div id="text-form">
                     <input class="form-control form-control-lg" id="input-text" type="text" name="q">
+                    <input type="hidden" id="tbm" name="tbm" value="isch">
                 </div>
                 <div id="button-form">
-                    <input id="submit-button" type="submit" value="Google Search">
+                    <input id="submit-button" type="submit" value="Google Images Search">
                     <span role="button"></span>
                 </div>
                 
