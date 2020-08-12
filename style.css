@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto, sans-serif;
 }
 
 #links-google {
@@ -56,5 +57,56 @@
     border: 2px solid gray;
 }
 
+#advanced-header {
+    color: #E46C64;
+    position:relative;
+    top: 5rem;
+    left: 3rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+#advanced-search-table {
+    position:relative;
+    left: 3rem;
+    text-align: left;
+    font-weight: 300;
+    line-height: 2.5rem
+}
+
+#head-first {
+    font-weight: 400;
+    font-size: 1rem
+}
+
+#head-third {
+    color: gray;
+    font-size: .8rem;
+}
+
+.first-column {
+    font-size: .8rem;
+    padding-right: 3rem;
+}
+
+.form-advanced {
+    line-height: 1.5rem;
+    width: 30rem
+}
+
+.third-column {
+    padding-left: 1rem;
+    font-size: .72rem;
+    font-family: sans-serif;
+}
+
+#submit-button-adv {
+    font-size: .7rem;
+    color: white;
+    font-family: sans-serif;
+    background-color: #498CFA;
+    border-color: #498CFA;
+    padding: .3rem .6rem;
+    margin-top: .5rem;
 
 
