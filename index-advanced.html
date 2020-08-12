@@ -8,16 +8,40 @@
     </head>
     <body>
         <div id="links-google">
-            <a id= "google" href="https://google.com/" title="Google search">Google Search</a>
+            <a id= "google" href="index.html" title="Google search">Google Search</a>
         </div>
         
         <div id="google-form">
             <form action="https://google.com/search">
-                <div id="text-form">
-                    <input class="form-control form-control-lg" id="input-text" type="text" name="q">
-                </div>
+                <table>
+                <caption>Advanced search</caption>
+                
+                <tbody>
+                    <tr>
+                        <td>all these words:</td>
+                        <td><input class="form-advanced" id="input-text-all" type="text" name="as_q"></td>
+                        <td>Type the important words: tri-colour rat terrier</td>
+                    </tr>
+                    <tr>
+                        <td>this exact word or phrase:</td>
+                        <td><input class="form-advanced" id="input-text-exact" type="text" name="as_epq"></td>
+                        <td>Put exact words in quotes: "rat terrier"</td>
+                    </tr>
+                    <tr>
+                        <td>any of these words:</td>
+                        <td><input class="form-advanced" id="input-text-any" type="text" name="as_oq"></td>
+                        <td>Type OR between all the words you want: miniature OR standard</td>
+                    </tr>
+                    <tr>
+                        <td>none of these words:</td>
+                        <td><input class="form-advanced" id="input-text-none" type="text" name="as_eq"></td>
+                        <td>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</td>
+                    </tr>
+                    </tbody>
+                
+                </table>
                 <div id="button-form">
-                    <input id="submit-button" type="submit" value="Google Search">
+                    <input id="submit-button" type="submit" value="Google Advanced Search">
                     <span role="button"></span>
                 </div>
                 
