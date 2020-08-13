@@ -21,13 +21,17 @@
 
 #input-text {
     width: 50rem;
-    border: 2px solid blue;
+    border: 1px solid lightgray;
     border-radius: 2rem;
     padding: .5rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1rem;
     font-size: 1.5rem;
+}
+
+#input-text:hover {
+    box-shadow: .08rem .08rem .08rem .08rem lightgray;
 }
 
 #input-text:visited {
@@ -40,21 +44,42 @@
     width: 10rem;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid lightgray;
+    border: 1px solid #F7F7F7;
     border-radius: .2rem;
-    background-color: lightgray
-}
-#submit-button {
-    border: 0;
-    background-color: lightgray;
-    font-family: sans-serif;
-    font-size: 1.2rem;
-    color: gray;
-    padding: .2rem;
+    background-color: #F7F7F7
 }
 
-#button-form:hover {
-    border: 2px solid gray;
+#button-images {
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #F7F7F7;
+    border-radius: .2rem;
+    background-color: #F7F7F7
+}
+
+
+.submit-button {
+    border: none;
+    background-color: #F7F7F7;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    color: gray;
+    padding: .2rem 1rem;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    color: black;
+    border: .01rem solid gray;
+}
+
+.submit-button:active, .submit-button:focus {
+    color: black;
+    border: .1rem solid lightblue;
+    outline-color: lightblue;
 }
 
 #advanced-header {
@@ -64,6 +89,11 @@
     left: 3rem;
     font-size: 1.3rem;
     font-weight: 400;
+}
+
+#line-style {
+    position:relative;
+    top: 7rem;
 }
 
 #advanced-search-table {
@@ -91,7 +121,11 @@
 
 .form-advanced {
     line-height: 1.5rem;
-    width: 30rem
+    width: 30rem;
+}
+
+.form-advanced:visited {
+    font-size: 1rem;
 }
 
 .third-column {
@@ -100,13 +134,29 @@
     font-family: sans-serif;
 }
 
+.different-style {
+    font-family: monospace;
+    font-size: .9rem;
+}
+
 #submit-button-adv {
     font-size: .7rem;
     color: white;
+    font-weight: 600;
     font-family: sans-serif;
     background-color: #498CFA;
     border-color: #498CFA;
     padding: .3rem .6rem;
     margin-top: .5rem;
+    cursor:context-menu;
+}
+
+#submit-button-adv:hover {
+    background-color: #0082F5;
+}
+
+#submit-button-adv:active, #submit-button-adv:focus {
+    outline-color: white;
+}
 
 
