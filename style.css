@@ -59,7 +59,7 @@
 }
 
 
-.submit-button {
+.submit-button, .lucky-button {
     border: none;
     background-color: #F7F7F7;
     font-family: sans-serif;
@@ -71,12 +71,14 @@
     cursor: pointer;
 }
 
-.submit-button:hover {
+.submit-button:hover, .lucky-button:hover {
     color: black;
     border: .01rem solid gray;
+    text-decoration: none;
 }
 
-.submit-button:active, .submit-button:focus {
+.submit-button:active, .submit-button:focus, .lucky-button:active, .lucky-button:focus {
+    text-decoration: none;
     color: black;
     border: .1rem solid lightblue;
     outline-color: lightblue;
